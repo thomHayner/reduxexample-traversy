@@ -2,7 +2,18 @@ Traversy Media Redux Crash Course With React
 
 https://www.youtube.com/watch?v=93p3LxR9xfM&list=PLLyB-ZUUSVZ1Y2CJVLzPGxNXElltTtvAZ&index=6&t=1380s
 
-This link will take you to the 23:00 timestamp in the video.  This is the part where the narrator begins working on Redux.  This is a starter repo with all of the React completed so that you can jump right into the Redux portion of the lesson (@23:00 timestamp).
+This link will take you to the @23:00 timestamp in the video.  This is the part of the video lesson where the narrator begins working on Redux.  This is a starter repo with all of the React completed so that you can jump right into the Redux portion of the lesson (@23:00 timestamp).
+
+
+HOW TO USE THIS REPO:
+1. Fork
+2. Clone
+3. Refactor App.js as it is show in the video 
+    Line 1: import statement
+        import React, { Component } from 'react';
+    Line 8: stateless class
+        class App extends Component {
+4. Begin following along with the video lesson
 
 
 
