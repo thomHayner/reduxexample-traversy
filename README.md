@@ -8,12 +8,7 @@ This link will take you to the @23:00 timestamp in the video.  This is the part 
 HOW TO USE THIS REPO:
 1. Fork
 2. Clone
-3. Refactor App.js as it is show in the video 
-    Line 1: import statement
-        import React, { Component } from 'react';
-    Line 8: stateless class
-        class App extends Component {
-4. Begin following along with the video lesson
+3. Begin following along with the video lesson
 
 
 
