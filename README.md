@@ -6,9 +6,9 @@ This link will take you to the @23:00 timestamp in the video. This is the part o
 
 HOW TO USE THIS REPO:
 
-Fork
-Clone
-npm install
+Fork,
+Clone,
+npm install,
 Begin following along with the video lesson starting @23:00 timestamp
 
 
