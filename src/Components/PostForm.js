@@ -1,4 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { createPost } from '../actions/postActions';
 
 class PostForm extends Component {
     constructor(props) {
@@ -17,7 +20,7 @@ class PostForm extends Component {
 
     handleSubmit(e) {
         // expect response === {title: "test", body: "test", id: 101}
-        // response will take about 20 seconds / up to 30 seconds, have patience
+        // response may take up to 30 seconds, have patience
         e.preventDefault();
 
         const post= {
@@ -25,15 +28,7 @@ class PostForm extends Component {
             body: this.state.body
         }
 
-        fetch('https://jsonplaceholder.typicode.com/posts', {
-            method: "POST",
-            headers: {
-                "content-type": "application/json"
-            },
-            body: JSON.stringify(post),
-        })
-            .then(res => res.json())
-            .then(data => console.log(data))
+        this.props.createPost(post);
     }
 
     render() {
@@ -69,4 +64,8 @@ class PostForm extends Component {
     }
 }
 
-export default PostForm
+PostForm.propTypes = {
+    createPost: PropTypes.func.isRequired,
+}
+
+export default connect(null, { createPost })(PostForm);
