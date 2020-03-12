@@ -1,3 +1,12 @@
+Traversy Media Redux Crash Course With React
+
+https://www.youtube.com/watch?v=93p3LxR9xfM&list=PLLyB-ZUUSVZ1Y2CJVLzPGxNXElltTtvAZ&index=6&t=1380s
+
+This link will take you to the 23:00 timestamp in the video.  This is the part where the narrator begins working on Redux.  This is a starter repo with all of the React completed so that you can jump right into the Redux portion of the lesson (@23:00 timestamp).
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
